@@ -71,7 +71,7 @@ public class JwtSignature
 {
     const string SWIPECLOCK_SECRET = "qnWrACmWiE1MBOrB92NlNwAaafMru3a7pC2s25kSPNnbI6aQlELM1ad9vrIIaHoI";
 
-    public static string CreateJwt(int siteId)
+    public static string CreateJwt(string siteId)
     {
         var header = new
         {

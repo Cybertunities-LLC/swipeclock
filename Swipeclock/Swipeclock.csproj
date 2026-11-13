@@ -8,7 +8,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Galosys.Foundation.AspNetCore" Version="26.10.20.1" />
+      <PackageReference Include="Galosys.Foundation.AspNetCore" Version="26.10.29.1" />
     </ItemGroup>
-
+    <ItemGroup>
+        <None Update="Swipeclock-Sites.csv"
+              CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
 </Project>
